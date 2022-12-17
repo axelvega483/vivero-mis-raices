@@ -99,11 +99,13 @@
     list-style: none;
     text-align: center;
     text-transform: uppercase;
+    
 }
 
 .menu ul li {
     font-weight: bolder;
     display: inline-block;
+   
 }
 
 .menu ul li a {
@@ -115,7 +117,7 @@
 .menu ul li a:hover {
     color: black;
     cursor: pointer;
-
+   
 }
 
 p,
@@ -158,6 +160,12 @@ thead {
 tr:hover td {
     background-color: gray;
     color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 
 td {
@@ -218,6 +226,7 @@ td {
 .form-register a:hover {
     color: white;
     text-decoration: underline;
+   
 }
 
 .form-register .botons {
