@@ -37,11 +37,6 @@
 
 #cabecera {
     grid-area: cabecera;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 10px;
-
 
 }
 
@@ -58,6 +53,9 @@
     margin: 2px;
     border: ridge 2px palevioletred;
     border-radius: 10%;
+}
+.nav-link {
+    text-align: end;
 }
 
 @media only screen and (min-width: 768px) {}
