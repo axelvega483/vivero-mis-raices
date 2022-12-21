@@ -9,6 +9,7 @@
     height: 150px;
     alt: "logo";
     text-align: center;
+   
 }
 
 .logoinstagram {
@@ -68,8 +69,7 @@
 @media only screen and (min-width: 1280px) {
     #cabecera {
         grid-area: cabecera;
-        display: flex;
-        flex-direction: row;
+        display: block;
         justify-content: space-between;
         flex-wrap: nowrap;
         padding-top: 10px;
@@ -80,7 +80,7 @@
     }
 
     #hero {
-        text-align: start;
+        padding-bottom: 10px;
     }
 
 
