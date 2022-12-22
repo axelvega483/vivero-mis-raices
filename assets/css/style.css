@@ -26,7 +26,7 @@
     background: linear-gradient(blue, pink);
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto;
+    grid-template-rows: 300px 2fr 1fr ;
     grid-template-areas:
         "cabecera"
         "hero"
@@ -37,12 +37,13 @@
 
 #cabecera {
     grid-area: cabecera;
-
+    
 }
 
 #hero {
     grid-area: hero;
     text-align: center;
+
 }
 
 
@@ -134,13 +135,14 @@ h2 {
     border-radius: 5%;
     margin: 1px;
 }
-
+ 
 
 /*souvenirs*/
 table {
-    text-align: center;
-    width: auto;
-    border-collapse: collapse;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 0px;
 }
 
 th,
