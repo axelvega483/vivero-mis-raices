@@ -9,7 +9,7 @@
     height: 150px;
     alt: "logo";
     text-align: start;
-   
+
 }
 
 .logoinstagram {
@@ -23,10 +23,10 @@
 
 
 #contenedor {
-    background: linear-gradient(blue, pink);
+    background: linear-gradient(rgb(157, 204, 243), pink);
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto ;
+    grid-template-rows: auto;
     grid-template-areas:
         "cabecera"
         "hero"
@@ -37,7 +37,7 @@
 
 #cabecera {
     grid-area: cabecera;
-    
+
 }
 
 #hero {
@@ -55,6 +55,7 @@
     border: ridge 2px palevioletred;
     border-radius: 10%;
 }
+
 .nav-link {
     text-align: end;
 }
@@ -98,13 +99,13 @@
     list-style: none;
     text-align: center;
     text-transform: uppercase;
-    
+
 }
 
 .menu ul li {
     font-weight: bolder;
     display: inline-block;
-   
+
 }
 
 .menu ul li a {
@@ -116,7 +117,7 @@
 .menu ul li a:hover {
     color: black;
     cursor: pointer;
-   
+
 }
 
 p,
@@ -134,8 +135,16 @@ h2 {
     border: ridge 2px palevioletred;
     border-radius: 5%;
     margin: 1px;
+
 }
- 
+
+h5 {
+    
+    color: white;
+    text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+
+}
+
 
 /*souvenirs*/
 table {
@@ -225,7 +234,7 @@ td {
 .form-register a:hover {
     color: white;
     text-decoration: underline;
-   
+
 }
 
 .form-register .botons {
