@@ -23,7 +23,7 @@
 
 
 #contenedor {
-    background: linear-gradient(rgb(157, 204, 243), pink);
+    background: linear-gradient(rgb(138, 241, 241),cadetblue); 
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
@@ -52,7 +52,7 @@
     margin: 2px;
     width: 200px;
     margin: 2px;
-    border: ridge 2px palevioletred;
+    border: ridge 1px black;
     border-radius: 10%;
 }
 
@@ -132,7 +132,7 @@ h2 {
 
 .plant {
     width: 220px;
-    border: ridge 2px palevioletred;
+    border: ridge 1px black;
     border-radius: 5%;
     margin: 1px;
 
