@@ -1,7 +1,7 @@
-
+@import '../variables/variable';
 .plant {
-    width: 300px;
-    border: ridge 1px black;
+    width: $ancho;
+    border: ridge 1px $color-black;
     border-radius: 5%;
     margin: 1px;
 
@@ -10,7 +10,7 @@
 
 h5 {
     
-    color: white;
-    text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+    color: $color-white;
+    text-shadow: 1px 0px 0px $color-black, 0px 1px 0px $color-black, -1px 0px 0px $color-black, 0px -1px 0px $color-black;
 
 }

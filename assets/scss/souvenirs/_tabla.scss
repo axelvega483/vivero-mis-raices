@@ -1,39 +1,29 @@
-
-
+@import '../variables/variable';
 table {
+
     text-align: center;
-    width: auto;
     border-collapse: collapse;
-}
 
+    & th,
+    td {
+        padding: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
 
-th,
-td {
-    padding: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    & td:hover {
+        cursor: pointer;
+        transform: translate(150px, 0px);
+        -webkit-transform: translate(0px, -50px);
+        -moz-transform: translate(150px, 0px);
+        -ms-transform: translate(150px, 0px);
+        -o-transform: translate(150px, 0px);
+        font-weight: bold;
+    }
 
-thead {
-    background-color: #1f53c5;
-    color: white;
-    border-bottom: solid 5px aquamarine;
-}
-
-tr:hover td {
-    cursor: pointer;
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-}
-
-td {
-    font-weight: bold;
 }
 
 .img_tabla {
-    width: 200px;
+    width: calc($ancho/1.1);
     border-radius: 5%;
-
 }

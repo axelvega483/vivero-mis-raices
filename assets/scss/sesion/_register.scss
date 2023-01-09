@@ -1,20 +1,47 @@
+@import '../variables/variable';
 
 .form-register {
     width: 400px;
-    background: darkgrey;
+    background: $color-darkgrey ;
     padding: 30px;
     margin: auto;
     margin-top: 0px;
     border-radius: 4px;
     font: sans-serif;
-    color: black;
-    box-shadow: 7px 13px 37px #000;
+    color: $color-black ;
+    box-shadow: 7px 13px 37px $color-black;
+
+
+    & h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    & p{
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    & a{
+        color: $color-white ;
+        text-decoration: none;
+    }
+    & a:hover{
+        color: $color-white ;
+        text-decoration: underline;
+    }
+    & .botons{
+        width: 100%;
+        background: $color-celeste ;
+        border: none;
+        padding: 12px;
+        color: $color-white ;
+        margin: 16px 0;
+        font-size: 16px;
+    }
+    
 }
 
-.form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-}
 
 .controls {
     width: 100%;
@@ -22,35 +49,9 @@
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
+    border: 1px solid $color-celeste;
     font: sans-serif;
     font-size: 18px;
 }
 
-.form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-}
 
-.form-register a {
-    color: white;
-    text-decoration: none;
-}
-
-.form-register a:hover {
-    color: white;
-    text-decoration: underline;
-
-}
-
-.form-register .botons {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-}

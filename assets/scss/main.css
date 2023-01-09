@@ -5,7 +5,6 @@
 
 .logo {
   height: 150px;
-  alt: "logo";
   text-align: start;
 }
 
@@ -42,9 +41,9 @@
 
 .img {
   margin: 2px;
-  width: 350px;
+  width: 300px;
   margin: 2px;
-  border: ridge 1px black;
+  border: ridge 1px #000000;
   border-radius: 10%;
 }
 
@@ -58,19 +57,16 @@
   text-align: center;
   text-transform: uppercase;
 }
-
 .menu ul li {
   font-weight: bolder;
   display: inline-block;
 }
-
-.menu ul li a {
-  color: white;
+.menu ul a {
+  color: #000000;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.menu ul li a:hover {
-  color: black;
+.menu ul a:hover {
+  color: #000000;
   cursor: pointer;
 }
 
@@ -95,73 +91,87 @@ h2 {
   #hero {
     padding-bottom: 10px;
   }
+  #hero .caja {
+    display: flex;
+    flex-direction: row;
+  }
   .img {
-    width: 350px;
+    width: 300px;
   }
 }
 .plant {
   width: 300px;
-  border: ridge 1px black;
+  border: ridge 1px #000000;
   border-radius: 5%;
   margin: 1px;
 }
 
 h5 {
-  color: white;
-  text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+  color: #ffffff;
+  text-shadow: 1px 0px 0px #000000, 0px 1px 0px #000000, -1px 0px 0px #000000, 0px -1px 0px #000000;
 }
 
 table {
   text-align: center;
-  width: auto;
   border-collapse: collapse;
 }
-
-th,
-td {
+table th,
+table td {
   padding: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-thead {
-  background-color: #1f53c5;
-  color: white;
-  border-bottom: solid 5px aquamarine;
-}
-
-tr:hover td {
+table td:hover {
   cursor: pointer;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-}
-
-td {
+  transform: translate(150px, 0px);
+  -webkit-transform: translate(0px, -50px);
+  -moz-transform: translate(150px, 0px);
+  -ms-transform: translate(150px, 0px);
+  -o-transform: translate(150px, 0px);
   font-weight: bold;
 }
 
 .img_tabla {
-  width: 200px;
+  width: 272.7272727273px;
   border-radius: 5%;
 }
 
 .form-register {
   width: 400px;
-  background: darkgrey;
+  background: #a9a9a9;
   padding: 30px;
   margin: auto;
   margin-top: 0px;
   border-radius: 4px;
   font: sans-serif;
-  color: black;
-  box-shadow: 7px 13px 37px #000;
+  color: #000000;
+  box-shadow: 7px 13px 37px #000000;
 }
-
 .form-register h4 {
   font-size: 22px;
   margin-bottom: 20px;
+}
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.form-register a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.form-register a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: #ffffff;
+  margin: 16px 0;
+  font-size: 16px;
 }
 
 .controls {
@@ -173,33 +183,6 @@ td {
   border: 1px solid #1f53c5;
   font: sans-serif;
   font-size: 18px;
-}
-
-.form-register p {
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 40px;
-}
-
-.form-register a {
-  color: white;
-  text-decoration: none;
-}
-
-.form-register a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.form-register .botons {
-  width: 100%;
-  background: #1f53c5;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
 }
 
 .video {

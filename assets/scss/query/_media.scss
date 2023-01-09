@@ -1,3 +1,6 @@
+@import '../variables/variable';
+
+
 @media only screen and (min-width: 1280px) {
     #cabecera {
         grid-area: cabecera;
@@ -12,10 +15,16 @@
     }
 
     #hero {
+        
         padding-bottom: 10px;
+        
+        & .caja{
+            display: flex;
+            flex-direction: row;
+        }
     }
     .img{
-        width: 350px;
+        width:$ancho;
     }
-
+   
 }
