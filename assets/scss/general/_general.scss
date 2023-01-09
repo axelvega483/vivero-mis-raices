@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 150px;
+    alt: "logo";
+    text-align: start;
+}
+
+.logoinstagram {
+    width: 40px;
+}
+
+.logofacebook {
+    width: 80px;
+}
+#contenedor {
+    /* background: linear-gradient(rgb(138, 241, 241),cadetblue); */
+    background-image: url(../Img/Fondo/14259-floreado-vector.jpg);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "cabecera"
+        "hero"
+        "info"
+    ;
+
+}
+  
+#cabecera {
+    grid-area: cabecera;
+
+}
+  
+#hero {
+    grid-area: hero;
+    text-align: center;
+
+}
+#info {
+    grid-area: info;
+    padding-top: 10px;
+}
