@@ -18,7 +18,8 @@
 
 #contenedor {
   /* background: linear-gradient(rgb(138, 241, 241),cadetblue); */
-  background-image: url(../Img/Fondo/14259-floreado-vector.jpg);
+  /*background-image: url(../Img/Fondo/14259-floreado-vector.jpg);*/
+  background-color: green;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
@@ -32,6 +33,7 @@
 #hero {
   grid-area: hero;
   text-align: center;
+  display: block;
 }
 
 #info {
@@ -91,7 +93,7 @@ h2 {
   #hero {
     padding-bottom: 10px;
   }
-  #hero .caja {
+  #hero .contenedor-caja {
     display: flex;
     flex-direction: row;
   }
@@ -111,16 +113,18 @@ h5 {
   text-shadow: 1px 0px 0px #000000, 0px 1px 0px #000000, -1px 0px 0px #000000, 0px -1px 0px #000000;
 }
 
-table {
+.contenedor-caja {
+  width: 90%;
   text-align: center;
   border-collapse: collapse;
 }
-table th,
-table td {
-  padding: 20px;
+.contenedor-caja .caja {
+  padding-top: 5%;
+  padding-bottom: 5%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: block;
 }
-table td:hover {
+.contenedor-caja .caja:hover {
   cursor: pointer;
   transform: translate(150px, 0px);
   -webkit-transform: translate(0px, -50px);

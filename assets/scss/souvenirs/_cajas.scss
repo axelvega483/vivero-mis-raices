@@ -1,17 +1,18 @@
 @import '../variables/variable';
-table {
-
+.contenedor-caja {
+    width: 90%;
+    
     text-align: center;
     border-collapse: collapse;
-
-    & th,
-    td {
-        padding: 20px;
+    
+    & .caja{
+        padding-top: 5%;
+    padding-bottom: 5%;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        
+        display: block;
     }
 
-    & td:hover {
+    & .caja:hover {
         cursor: pointer;
         transform: translate(150px, 0px);
         -webkit-transform: translate(0px, -50px);
