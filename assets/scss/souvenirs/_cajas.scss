@@ -1,16 +1,21 @@
 @import '../variables/variable';
 .contenedor-caja {
-    width: 90%;
+    width: $ancho;
+    margin: 0;
     
-    text-align: center;
-    border-collapse: collapse;
     
     & .caja{
-        padding-top: 5%;
-    padding-bottom: 5%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        display: block;
-    }
+    display: block;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border: ridge 1px $color-black;
+    border-radius: 5%;
+    margin: 0;
+    padding: 0;
+    
+   
+}
 
     & .caja:hover {
         cursor: pointer;
@@ -25,6 +30,7 @@
 }
 
 .img_tabla {
-    width: calc($ancho/1.1);
+    width: $ancho;
+    height: $alto;
     border-radius: 5%;
 }

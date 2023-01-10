@@ -6,11 +6,11 @@
     margin: 1px;
 
 }
-
-
-h5 {
-    
-    color: $color-white;
-    text-shadow: 1px 0px 0px $color-black, 0px 1px 0px $color-black, -1px 0px 0px $color-black, 0px -1px 0px $color-black;
-
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 0;
 }
+

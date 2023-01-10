@@ -1,14 +1,15 @@
 @import '../variables/variable';
-.img  {
-    margin: 2px;
-    width: $ancho;
-    margin: 2px;
-    border: ridge 1px $color-black;
-    border-radius: 10%;
+
+#cabecera{
+    background-color: $color-darkgrey;
+}
+#contenedor{
+    background-color: $color-darkgrey-claro ;
 }
 .nav-link {
     text-align: end;
 }
+
 
 .menu ul {
     font-size: 16px;
@@ -32,12 +33,54 @@
 
 
 }
+.img  {
+    margin: 2px;
+    width: 255px;
+    height: 330px ;
+    margin: 2px;
+    border: ridge 1px $color-black;
+    border-radius: 10%;
+}
+.titulo-container{
+ 
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: $color-darkgrey-claro ;
+   
+}
+.novedades-container{
+    width: $ancho;
+    margin: 0;
 
 
-p,
-h1,
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    &.caja{
+        display: block;
+        padding-left: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        border: ridge 1px $color-black;
+        border-radius: 5%;
+        margin: 0;
+        padding: 0;
+    }
+    
+} 
+
+.img_caja1,.img_caja2,.img_caja3,.img_caja4{
+    width: 170px;
+    height: 230px;
+}
+
+.h1,.h2,.h3,.h4
+ {
+    font-family:  "Niramit",Sans-serif;
+    text-align: center; 
+}
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    
 }
 
