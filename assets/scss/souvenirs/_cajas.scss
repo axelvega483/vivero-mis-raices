@@ -2,7 +2,7 @@
 
 
 .contenedor-caja {
-    width: 260px;
+    width: 175px;
     margin: 0;
     
     
@@ -11,7 +11,7 @@
     padding-left: 10%;
     padding-top: 10%;
     padding-bottom: 10%;
-    border: ridge 1px $color-black;
+   
     border-radius: 5%;
     margin: 0;
     padding: 0;
@@ -28,11 +28,11 @@
         -o-transform: translate(150px, 0px);
         font-weight: bold;
     }
+    & .img_tabla {
+        width: 170px;
+        height: 230px;
+        border-radius: 5%;
+    }
 
 }
 
-.img_tabla {
-    width: 255px;
-    height: 330px ;
-    border-radius: 5%;
-}

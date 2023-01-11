@@ -1,10 +1,114 @@
 @import '../variables/variable';
 
-
-
-
-
 @media only screen and (min-width:768px) {
+    #contenedor {
+        background-color: $color-darkgrey;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "cabecera"
+            "hero"
+            "info"
+        ;
+
+    }
+
+    .cabecera {
+        grid-area: cabecera;
+        display: block;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding-top: 10px;
+    }
+
+    .imagen_principal {
+        flex-direction: row;
+    }
+
+    .hero {
+        background-color: $color-darkgrey-claro;
+        grid-area: hero;
+        padding-bottom: 10px;
+       
+        & .contenedor-caja {
+            display: flex ;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 10px;
+            padding-left: 50px;
+            width: 100%;
+
+            &.caja{
+                padding: 0;
+                margin: 0;
+                width: 10%;
+            }
+        }
+
+        & .novedades-container {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            padding-left: 50px;
+            gap: 10px;
+            width: 100%;
+
+            & .caja {
+                padding: 0;
+                margin: 0;
+                width: 30%;
+            }
+              
+        }& .novedades-container1 {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            padding-left: 50px;
+            gap: 10px;
+            width: 100%;
+
+            & .caja {
+                padding: 0;
+                margin: 0;
+                width: 30%;
+            }
+              
+        }
+        & .notificacion-container {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            
+            gap: 10px;
+            width: 100%;
+        }
+
+    }
+    .titulo-container{
+        display: flex;
+        padding: 0;
+    }
+   
+   
+    .img_tabla {
+        width: 170px;
+        height: 230px;
+        border-radius: 5%;
+    }
+    .info{
+        grid-area: info;
+       
+        
+    }    
+   
+
+}
+
+
+
+@media only screen and (min-width:1280px) {
     #contenedor {
         background-color: $color-darkgrey;
         display: grid;
@@ -84,6 +188,11 @@
     .img {
         width: $ancho;
         height: $alto;
+    }
+    .img_tabla {
+        width: $ancho;
+        height: $alto;
+        border-radius: 5%;
     }
     .info{
         grid-area: info;
