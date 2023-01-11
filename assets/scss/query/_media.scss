@@ -2,7 +2,7 @@
 
 @media only screen and (min-width: 1280px) {
     #contenedor {
-        
+        background-color: $color-darkgrey;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto;
@@ -27,6 +27,7 @@
     }
 
     .hero {
+        background-color: $color-darkgrey-claro;
         grid-area: hero;
         padding-bottom: 10px;
 

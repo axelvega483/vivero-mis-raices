@@ -129,6 +129,7 @@
 
 @media only screen and (min-width: 1280px) {
   #contenedor {
+    background-color: #a9a9a9;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
@@ -145,6 +146,7 @@
     flex-direction: row;
   }
   .hero {
+    background-color: #aaa5a5;
     grid-area: hero;
     padding-bottom: 10px;
   }
