@@ -1,22 +1,10 @@
 @import '../variables/variable';
 
-@media only screen and(min-width: 768px) {
-    
-     .novedades-container {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: center;
-        gap: 10px;
-        padding-left: 50px;
-        padding-top: 30px;
-        width: 100%;
-
-    }
-}
 
 
-@media only screen and (min-width: 1280px) {
+
+
+@media only screen and (min-width:768px) {
     #contenedor {
         background-color: $color-darkgrey;
         display: grid;
@@ -66,15 +54,24 @@
             display: flex;
             align-items: center;
             flex-direction: row;
-            gap: 10px;
             padding-left: 50px;
+            gap: 10px;
             width: 100%;
 
-            &.caja {
+            & .caja {
                 padding: 0;
                 margin: 0;
                 width: 30%;
             }
+              
+        }
+        & .notificacion-container {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            
+            gap: 10px;
+            width: 100%;
         }
 
     }
@@ -82,12 +79,8 @@
         display: flex;
         padding: 0;
     }
-    .img_caja1,.img_caja2,.img_caja3,.img_caja4 {
-        width: $ancho;
-        height: $alto;
-
-    }
-
+   
+   
     .img {
         width: $ancho;
         height: $alto;
@@ -97,10 +90,6 @@
        
         
     }    
-    .h1,.h2,.h3{
-        
-        text-align: center;
-        
-    }
+   
 
 }

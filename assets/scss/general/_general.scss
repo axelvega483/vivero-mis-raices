@@ -1,4 +1,6 @@
 @import '../variables/variable';
+
+
 *{
     margin: 0;
     padding: 0;
@@ -30,7 +32,7 @@
   
 .cabecera {
     grid-area: cabecera;
-
+    background-color: $color-darkgrey;
 }
   
 .hero {
@@ -51,4 +53,9 @@
 .info {
     grid-area: info;
     padding-top: 10px;
+    padding-bottom: 50px; 
+}
+.h3,h3{
+    
+ font-size: none;  
 }
