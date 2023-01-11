@@ -80,6 +80,7 @@
     }
     .titulo-container{
         display: flex;
+        padding: 0;
     }
     .img_caja1,.img_caja2,.img_caja3,.img_caja4 {
         width: $ancho;
@@ -97,6 +98,7 @@
         
     }    
     .h1,.h2,.h3{
+        
         text-align: center;
         
     }

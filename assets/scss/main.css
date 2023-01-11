@@ -190,6 +190,7 @@
   }
   .titulo-container {
     display: flex;
+    padding: 0;
   }
   .img_caja1, .img_caja2, .img_caja3, .img_caja4 {
     width: 300px;
@@ -206,11 +207,6 @@
     text-align: center;
   }
 }
-.plant {
-  width: 300px;
-  height: 350px;
-}
-
 .redes {
   display: flex;
   flex-direction: row;
