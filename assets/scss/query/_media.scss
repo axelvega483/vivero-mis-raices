@@ -1,5 +1,21 @@
 @import '../variables/variable';
 
+@media only screen and(min-width: 768px) {
+    
+     .novedades-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        padding-left: 50px;
+        padding-top: 30px;
+        width: 100%;
+
+    }
+}
+
+
 @media only screen and (min-width: 1280px) {
     #contenedor {
         background-color: $color-darkgrey;
@@ -30,7 +46,7 @@
         background-color: $color-darkgrey-claro;
         grid-area: hero;
         padding-bottom: 10px;
-
+       
         & .contenedor-caja {
             display: flex;
             align-items: center;
@@ -62,7 +78,9 @@
         }
 
     }
-
+    .titulo-container{
+        display: flex;
+    }
     .img_caja1,.img_caja2,.img_caja3,.img_caja4 {
         width: $ancho;
         height: $alto;

@@ -1,9 +1,8 @@
 @import '../variables/variable';
 .plant {
     width: $ancho;
-    border: ridge 1px $color-black;
-    border-radius: 5%;
-    margin: 1px;
+    height: $alto; 
+   
 
 }
 .redes {

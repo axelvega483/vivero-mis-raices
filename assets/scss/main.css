@@ -127,6 +127,18 @@
   padding-top: 10px;
 }
 
+@media only screen and (min-width: 768px) {
+  .novedades-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 100%;
+  }
+}
 @media only screen and (min-width: 1280px) {
   #contenedor {
     background-color: #a9a9a9;
@@ -176,6 +188,9 @@
     margin: 0;
     width: 30%;
   }
+  .titulo-container {
+    display: flex;
+  }
   .img_caja1, .img_caja2, .img_caja3, .img_caja4 {
     width: 300px;
     height: 350px;
@@ -193,9 +208,7 @@
 }
 .plant {
   width: 300px;
-  border: ridge 1px #000000;
-  border-radius: 5%;
-  margin: 1px;
+  height: 350px;
 }
 
 .redes {
