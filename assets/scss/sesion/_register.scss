@@ -1,7 +1,7 @@
 @import '../variables/variable';
 
 .form-register {
-    width: 400px;
+    width: $ancho;
     background: $color-darkgrey ;
     padding: 30px;
     margin: auto;
@@ -10,6 +10,7 @@
     font: sans-serif;
     color: $color-black ;
     box-shadow: 7px 13px 37px $color-black;
+    
 
 
     & h4 {
