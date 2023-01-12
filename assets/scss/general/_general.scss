@@ -29,12 +29,10 @@
     ;
 
 }
-  
 .cabecera {
     grid-area: cabecera;
     background-color: $color-darkgrey;
 }
-  
 .hero {
     grid-area: hero;
     text-align: center;
@@ -60,8 +58,4 @@
     grid-area: info;
     padding-top: 10px;
     padding-bottom: 50px; 
-}
-.h3,h3{
-    
- font-size: none;  
 }
