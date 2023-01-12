@@ -80,7 +80,8 @@
             display: flex;
             align-items: center;
             flex-direction: row;
-            
+            justify-content: space-around;
+            flex-wrap: wrap;
             gap: 10px;
             width: 100%;
         }
@@ -99,10 +100,14 @@
     }
     .info{
         grid-area: info;
-       
+        
         
     }    
-   
+    .video {
+        height: 250px;
+        width: 450px;
+        
+    }
 
 }
 
@@ -173,15 +178,22 @@
             display: flex;
             align-items: center;
             flex-direction: row;
-            
+            justify-content: space-around;
             gap: 10px;
             width: 100%;
+
+            & .video {
+                height: 250px;
+                width: 450px;
+               
+            }
         }
 
     }
     .titulo-container{
         display: flex;
-        padding: 0;
+        padding-bottom: 10px;
+       
     }
    
    
