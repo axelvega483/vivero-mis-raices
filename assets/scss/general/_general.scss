@@ -40,6 +40,20 @@
     align-items: center;
 
 }
+@mixin imagenes($color) {
+    margin: 2px;
+    width: 170px;
+    height: 230px;
+    margin: 2px;
+    border: ridge 1px $color;
+    border-radius: 10%;
+}
+.planta{
+    @include imagenes(c.$color-aqua);
+}
+.souvenirs{
+    @include imagenes(c.$color-pink );
+}
 .caja-container{
     grid-area: caja;
     text-align: center;

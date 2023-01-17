@@ -88,11 +88,19 @@
         display: flex;
         padding: 0;
     }
-    .img_tabla {
+    @mixin imagenes {
         width: 170px;
         height: 230px;
         border-radius: 5%;
     }
+    .planta{
+        @include imagenes;
+    }
+    .souvenirs{
+        @include imagenes;
+    }
+    
+
     .info{
         grid-area: info;
         
@@ -186,15 +194,17 @@
         display: flex;
         padding-bottom: 10px;
     }
-    .img {
+    @mixin imagenes {
         width: c.$ancho;
         height: c.$alto;
     }
-    .img_tabla {
-        width: c.$ancho;
-        height: c.$alto;
-        border-radius: 5%;
+    .planta{
+        @include imagenes;
     }
+    .souvenirs{
+        @include imagenes;
+    }
+    
     .info{
         grid-area: info;
         
