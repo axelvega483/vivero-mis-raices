@@ -1,7 +1,7 @@
-@import '../variables/variable';
+@use '../variables/variable' as c;
 
 .novedades-container {
-    width: $ancho;
+    width: c.$ancho;
     margin: 0;
 
     & .caja {

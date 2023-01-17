@@ -1,17 +1,15 @@
-@import '../variables/variable';
-
-
+@use '../variables/variable' as c;
 
 .form-register {
     width: 300px;
-    background: $color-darkgrey ;
+    background: c.$color-darkgrey ;
     padding: 30px;
     margin: auto;
     margin-top: 0px;
     border-radius: 4px;
     font: sans-serif;
-    color: $color-black ;
-    box-shadow: 7px 13px 37px $color-black;
+    color: c.$color-black ;
+    box-shadow: 7px 13px 37px c.$color-black;
     
 
 
@@ -26,19 +24,19 @@
         line-height: 40px;
     }
     & a{
-        color: $color-white ;
+        color: c.$color-white ;
         text-decoration: none;
     }
     & a:hover{
-        color: $color-white ;
+        color: c.$color-white ;
         text-decoration: underline;
     }
     & .botons{
         width: 100%;
-        background: $color-celeste ;
+        background: c.$color-celeste ;
         border: none;
         padding: 12px;
-        color: $color-white ;
+        color: c.$color-white ;
         margin: 16px 0;
         font-size: 16px;
     }
@@ -52,7 +50,7 @@
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid $color-celeste;
+    border: 1px solid c.$color-celeste;
     font: sans-serif;
     font-size: 18px;
 }

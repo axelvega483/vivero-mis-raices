@@ -1,5 +1,4 @@
-@import '../variables/variable';
-
+@use '../variables/variable' as c;
 
 *{
     margin: 0;
@@ -18,7 +17,7 @@
     width: 80px;
 }
 #contenedor {
-    background-color: $color-darkgrey-claro ;
+    background-color: c.$color-darkgrey-claro ;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows:auto;
@@ -31,7 +30,7 @@
 }
 .cabecera {
     grid-area: cabecera;
-    background-color: $color-darkgrey;
+    background-color: c.$color-darkgrey;
 }
 .hero {
     grid-area: hero;

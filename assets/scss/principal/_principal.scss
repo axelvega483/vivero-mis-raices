@@ -1,11 +1,7 @@
-@import '../variables/variable';
-
-
-
-
+@use '../variables/variable' as c;
 
 #contenedor{
-    background-color: $color-darkgrey-claro ;
+    background-color: c.$color-darkgrey-claro ;
 }
 .nav-link {
     text-align: end;
@@ -29,7 +25,7 @@
     width: 170px;
     height: 230px;
     margin: 2px;
-    border: ridge 1px $color-black;
+    border: ridge 1px c.$color-black;
     border-radius: 10%;
 }
 .titulo-container{
@@ -38,7 +34,7 @@
     
 }
 .novedades-container{
-    width: $ancho;
+    width: c.$ancho;
     margin: 0;
 
 
@@ -47,7 +43,7 @@
         padding-left: 10%;
         padding-top: 10%;
         padding-bottom: 10%;
-        border: ridge 1px $color-black;
+        border: ridge 1px c.$color-black;
         border-radius: 5%;
         margin: 0;
         padding: 0;
