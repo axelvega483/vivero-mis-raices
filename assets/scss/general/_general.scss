@@ -54,19 +54,19 @@
 .souvenirs{
     @include imagenes(c.$color-pink );
 }
-.caja-container{
-    grid-area: caja;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .notificacion-container{
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.text{
+    width: 200px ;
+    & p{
+        text-align: start;
+    }
+}
+
 .info {
     grid-area: info;
     padding-top: 10px;

@@ -55,19 +55,18 @@
   border-radius: 10%;
 }
 
-.caja-container {
-  grid-area: caja;
+.notificacion-container {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.notificacion-container {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.text {
+  width: 200px;
+}
+.text p {
+  text-align: start;
 }
 
 .info {
@@ -97,7 +96,7 @@
 }
 
 .novedades-container {
-  width: 300px;
+  width: 250px;
   margin: 0;
 }
 .novedades-container.caja {
@@ -158,28 +157,10 @@
   .hero .novedades-container {
     display: flex;
     align-items: center;
-    flex-direction: row;
-    padding-left: 50px;
+    flex-wrap: wrap;
     gap: 10px;
     width: 100%;
-  }
-  .hero .novedades-container .caja {
-    padding: 0;
-    margin: 0;
-    width: 30%;
-  }
-  .hero .novedades-container1 {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    padding-left: 50px;
-    gap: 10px;
-    width: 100%;
-  }
-  .hero .novedades-container1 .caja {
-    padding: 0;
-    margin: 0;
-    width: 30%;
+    justify-content: space-around;
   }
   .hero .notificacion-container {
     display: flex;
@@ -194,14 +175,20 @@
     display: flex;
     padding: 0;
   }
+  .text {
+    width: 600px;
+  }
+  .text p {
+    text-align: start;
+  }
   .planta {
-    width: 170px;
-    height: 230px;
+    width: 140px;
+    height: 200px;
     border-radius: 5%;
   }
   .souvenirs {
-    width: 170px;
-    height: 230px;
+    width: 140px;
+    height: 200px;
     border-radius: 5%;
   }
   .info {
@@ -251,15 +238,10 @@
   .hero .novedades-container {
     display: flex;
     align-items: center;
-    flex-direction: row;
-    padding-left: 50px;
+    flex-wrap: wrap;
     gap: 10px;
     width: 100%;
-  }
-  .hero .novedades-container .caja {
-    padding: 0;
-    margin: 0;
-    width: 30%;
+    justify-content: space-around;
   }
   .hero .notificacion-container {
     display: flex;
@@ -277,20 +259,26 @@
     display: flex;
     padding-bottom: 10px;
   }
+  .text {
+    width: 900px;
+  }
+  .text p {
+    text-align: start;
+  }
   .planta {
-    width: 300px;
-    height: 350px;
+    width: 250px;
+    height: 300px;
   }
   .souvenirs {
-    width: 300px;
-    height: 350px;
+    width: 250px;
+    height: 300px;
   }
   .info {
     grid-area: info;
   }
 }
 .novedades-container {
-  width: 300px;
+  width: 250px;
   margin: 0;
 }
 .novedades-container .caja {
