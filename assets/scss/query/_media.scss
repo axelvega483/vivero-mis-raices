@@ -30,21 +30,6 @@
         background-color: c.$color-darkgrey-claro;
         grid-area: hero;
         padding-bottom: 10px;
-        & .contenedor-caja {
-            display: flex ;
-            align-items: center;
-            justify-content: center;
-            flex-direction: row;
-            gap: 10px;
-            padding-left: 50px;
-            width: 100%;
-
-            &.caja{
-                padding: 0;
-                margin: 0;
-                width: 10%;
-            }
-        }
 
         & .novedades-container {
             display: flex;
@@ -134,20 +119,6 @@
         background-color: c.$color-darkgrey-claro;
         grid-area: hero;
         padding-bottom: 10px;
-        & .contenedor-caja {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            gap: 10px;
-            padding-left: 50px;
-            width: 100%;
-
-            &.caja{
-                padding: 0;
-                margin: 0;
-                width: 30%;
-            }
-        }
 
         & .novedades-container {
             display: flex;
