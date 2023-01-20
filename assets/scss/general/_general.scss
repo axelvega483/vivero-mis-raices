@@ -80,7 +80,7 @@
 } 
 .titulo {
     text-align: center;
-    background-color: rgb(248, 221, 221);
+    background-color: c.$color-white-pink ;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 75%;
@@ -88,7 +88,7 @@
 .text {
     width: 300px;
     align-items: center;
-    background-color:c.$color-blanco-red ;
+    background-color:c.$color-white-red ;
     & p {
 
         text-align: start;
