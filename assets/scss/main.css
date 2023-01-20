@@ -96,7 +96,7 @@
 }
 
 .novedades-container {
-  width: 250px;
+  width: 300px;
   margin: 0;
 }
 .novedades-container.caja {
@@ -168,13 +168,13 @@
     text-align: start;
   }
   .planta {
-    width: 140px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
     border-radius: 5%;
   }
   .souvenirs {
-    width: 140px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
     border-radius: 5%;
   }
   .info {
@@ -239,19 +239,19 @@
     text-align: start;
   }
   .planta {
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
   }
   .souvenirs {
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
   }
   .info {
     grid-area: info;
   }
 }
 .novedades-container {
-  width: 250px;
+  width: 300px;
   margin: 0;
 }
 .novedades-container .caja {
