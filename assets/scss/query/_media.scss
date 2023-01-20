@@ -26,27 +26,28 @@
         flex-direction: row;
     }
 
-    .hero {
-        background-color: c.$color-darkgrey-claro;
-        grid-area: hero;
-        padding-bottom: 10px;
+        .hero {
+            background-color: c.$color-darkgrey-claro;
+            grid-area: hero;
+            padding-bottom: 10px;
+    
+            & .novedades-container {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 10px;
+                width: 100%;
+                justify-content: center;
+                & .caja:hover {
+                    cursor: pointer;
+                    font-weight: bold;
+                    transform: scale(1.1);
+                    -webkit-transform: scale(1.1);
+                    -moz-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                    -o-transform: scale(1.1);
+                }
 
-        & .novedades-container {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 10px;
-            width: 100%;   
-            justify-content: center; 
-            & .caja:hover {
-                cursor: pointer;
-                font-weight: bold;
-                transform: scale(1.1);
-                -webkit-transform: scale(1.1);
-                -moz-transform: scale(1.1);
-                -ms-transform: scale(1.1);
-                -o-transform: scale(1.1);
-            }
         }
         
         & .notificacion-container {
@@ -66,9 +67,6 @@
     }
     .text{
         width: 600px ;
-        & p{
-            text-align: start;
-        }
     }
     @mixin imagenes {
         width: 200px;
@@ -136,15 +134,7 @@
             gap: 10px;
             width: 100%;
             justify-content: center;
-            & .caja:hover {
-                cursor: pointer;
-                font-weight: bold;
-                transform: scale(1.1);
-                -webkit-transform: scale(1.1);
-                -moz-transform: scale(1.1);
-                -ms-transform: scale(1.1);
-                -o-transform: scale(1.1);
-            }
+            
         }
         & .notificacion-container {
             display: flex;
@@ -167,10 +157,7 @@
     }
     .text{
         width: 900px ;
-        & p{
-            text-align: start;
-            
-        }
+        
     }
     @mixin imagenes {
         width: c.$ancho;
