@@ -49,6 +49,7 @@
                 }
 
         }
+
         
         & .notificacion-container {
             display: flex;
@@ -72,6 +73,7 @@
         width: 200px;
         height: 250px;
         border-radius: 5%;
+
     }
     .planta{
         @include imagenes;
