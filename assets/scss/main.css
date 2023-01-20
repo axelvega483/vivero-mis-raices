@@ -62,17 +62,27 @@
   align-items: center;
 }
 
-.text {
-  width: 200px;
-}
-.text p {
-  text-align: start;
-}
-
 .info {
   grid-area: info;
   padding-top: 10px;
   padding-bottom: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.text {
+  width: 300px;
+  align-items: center;
+}
+.text p {
+  text-align: start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #contenedor {
@@ -108,13 +118,6 @@
   border-radius: 5%;
   margin: 0;
   padding: 0;
-}
-
-.nosotros {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 10px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -255,7 +258,6 @@
   }
   .text p {
     text-align: start;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .planta {
     width: 300px;
