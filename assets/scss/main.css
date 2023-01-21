@@ -81,7 +81,11 @@
   background-color: #f8dddd;
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 75%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .text {
