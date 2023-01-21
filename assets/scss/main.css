@@ -169,7 +169,7 @@
   }
   .hero .novedades-container .caja .hover {
     width: 0%;
-    background-color: rgba(56, 53, 53, 0.586);
+    background-color: rgba(56, 53, 53, 0.5843137255);
     position: absolute;
     top: 0;
     display: flex;
@@ -178,14 +178,13 @@
     overflow: hidden;
   }
   .hero .novedades-container .caja .hover p {
-    color: white;
-    text-shadow: 1px 1px 1px black;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
     font-size: 2rem;
   }
   .hero .novedades-container .caja:hover .hover {
     width: 100%;
     height: 100%;
-    cursor: pointer;
   }
   .hero .notificacion-container {
     display: flex;
