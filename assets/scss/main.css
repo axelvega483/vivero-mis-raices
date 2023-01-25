@@ -229,7 +229,7 @@
     background-color: #a9a9a9;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto;
+    grid-template-rows: 200px 2fr 1fr;
     grid-template-areas: "cabecera" "hero" "info";
   }
   .cabecera {
