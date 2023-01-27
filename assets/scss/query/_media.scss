@@ -1,20 +1,10 @@
 @use '../variables/variable' as c;
 
 @media only screen and (min-width:768px) {
-    #cabecera {
-        background-color: c.$color-darkgrey;
-        
-
-    }
-    
-    
-
     .imagen_principal {
         flex-direction: row;
     }
 #hero {
-    background-color: c.$color-darkgrey-claro;
-    
     padding-bottom: 10px;
     z-index: 10;
     & .novedades-container {
@@ -102,22 +92,11 @@
 
 
 @media only screen and (min-width:1280px) {
-    #cabecera {
-        background-color: c.$color-darkgrey;
-        
-        
-    }
-
-    
-
-    
     .imagen_principal {
         flex-direction: row;
     }
 
     #hero {
-        background-color: c.$color-darkgrey-claro;
-        
         padding-bottom: 10px;
 
         & .novedades-container {
