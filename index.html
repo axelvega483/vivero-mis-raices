@@ -18,172 +18,171 @@
 
 <body>
 
-  <div id="contenedor">
-    <!---navbar de bootstrap -->
-    <header class="cabecera">
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-          <a class="navbar-brand logo animate__animated animate__zoomIn justify-content-lg-start"href="index.html"><img
-            src="assets/Img/Logo/logo.png" height="150" alt="Logo"></a>
-          <a class="navbar-brand"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav ">
-              <li class="nav-item">
-                <a class="nav-link" href="page/Productos.html" style="text-decoration:none;">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="page/Cuidados.html" style="text-decoration:none;">Cuidados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="page/IniciarSesion.html" style="text-decoration:none;">Iniciar Sesion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="page/Notificiaciones.html" style="text-decoration:none;">Notificaciones</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!---fin navbar de bootstrap -->
-
-    <main class="hero">
-      <!---carousel de bootstrap -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators ">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-            aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-            aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-            aria-label="Slide 6"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/Img/Plantas/cactus cebra n6.jpg" class="planta">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/Img/Artesanias/IMG_20210715_115738.jpg" class=" souvenirs">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/Img/Plantas/malvon rosado flor.jpeg" class="planta">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/Img/Artesanias/IMG_20220225_112423.jpg" class="souvenirs">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/Img/Plantas/singonio t12.jpg" class="planta">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/Img/Artesanias/IMG_20220715_121652.jpg" class="souvenirs">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+  <!---navbar de bootstrap -->
+  <header id="cabecera">
+    <div class="logo animate__animated animate__zoomIn">
+      <ahref="index.html"><img src="assets/Img/Logo/logo.png" height="150" alt="Logo">
+    </div>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="page/Productos.html" style="text-decoration:none;">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page/Cuidados.html" style="text-decoration:none;">Cuidados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="page/IniciarSesion.html" style="text-decoration:none;">Iniciar Sesion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page/Notificiaciones.html" style="text-decoration:none;">Notificaciones</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <!---fin carousel de bootstrap -->
+    </nav>
+  </header>
+  <!---fin navbar de bootstrap -->
 
-      <div class="titulo">
-        <h1> Novedades </h1>
+  <main id="hero">
+    <!---carousel de bootstrap -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
       </div>
-      <!---contenedor de imagenes de muestras (propio)-->
-      <div class="novedades-container">
-        <div class="caja">
-          <img class="souvenirs" src="assets/Img/Artesanias/IMG_20210715_115738.jpg">
-          <div class="hover">
-            <p>Porta-aros</p>
-          </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/Img/Plantas/cactus cebra n6.jpg" class="planta">
         </div>
-        <div class="caja">
-          <img class="souvenirs" src="assets/Img/Artesanias/IMG_20220225_112423.jpg">
-          <div class="hover">
-            <p>Porta-sahumerio</p>
-          </div>
+        <div class="carousel-item">
+          <img src="assets/Img/Artesanias/IMG_20210715_115738.jpg" class=" souvenirs">
         </div>
-        <div class="caja">
-          <img class="souvenirs" src="assets/Img/Artesanias/IMG_20220715_115139.jpg">
-          <div class="hover">
-            <p>Porta vela</p>
-          </div>
+        <div class="carousel-item">
+          <img src="assets/Img/Plantas/malvon rosado flor.jpeg" class="planta">
         </div>
-        <div class="caja">
-          <img class="souvenirs" src="assets/Img/Artesanias/IMG_20220715_121652.jpg">
-          <div class="hover">
-            <p>Llamador de Angeles</p>
-          </div>
+        <div class="carousel-item">
+          <img src="assets/Img/Artesanias/IMG_20220225_112423.jpg" class="souvenirs">
         </div>
-      
-        <div class="caja">
-          <img class="planta" src="assets/Img/Plantas/cactus cebra n6.jpg">
-          <div class="hover">
-            <p>Cactus Cebra</p>
-          </div>
+        <div class="carousel-item">
+          <img src="assets/Img/Plantas/singonio t12.jpg" class="planta">
         </div>
-        <div class="caja">
-          <img class="planta" src="assets/Img/Plantas/cactus chin c8 1.jpg">
-          <div class="hover">
-            <p>Cactus Chin</p>
-          </div>
-        </div>
-        <div class="caja">
-          <img class="planta" src="assets/Img/Plantas/kalanchoe.jpeg">
-          <div class="hover">
-            <p>kalanchoe</p>
-          </div>
-        </div>
-        <div class="caja">
-          <img class="planta" src="assets/Img/Plantas/escila t9.jpg">
-          <div class="hover">
-            <p>Escila</p>
-          </div>
+        <div class="carousel-item">
+          <img src="assets/Img/Artesanias/IMG_20220715_121652.jpg" class="souvenirs">
         </div>
       </div>
-    </main>
-    <!---fin de contenedor de imagenes de muestras (propio)-->
-    <!---contenedor de informacion y redes (propio)-->
-    <section class="info">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!---fin carousel de bootstrap -->
 
-      <div class="redes">
-
-        <a href="https://www.instagram.com/vivero_mis.raices/" target="_blank" <label>
-          <img class="logoinstagram" src="assets/Img/Logo/instagram.png"></label>
-        </a>
-        <a href="https://www.facebook.com/vivero.misraices.1" target="_blank" <label>
-          <img class="logofacebook" src="assets/Img/Logo/facebook.png"></label>
-        </a>
+    <div class="titulo">
+      <h1> Novedades </h1>
+    </div>
+    <!---contenedor de imagenes de muestras (propio)-->
+    <div class="novedades-container">
+      <div class="caja">
+        <img class="souvenirs" src="assets/Img/Artesanias/IMG_20210715_115738.jpg">
+        <div class="hover">
+          <p>Porta-aros</p>
+        </div>
       </div>
-      
-        <div class="titulo">
-          <h2> Vivero Mis Raices</h2>
+      <div class="caja">
+        <img class="souvenirs" src="assets/Img/Artesanias/IMG_20220225_112423.jpg">
+        <div class="hover">
+          <p>Porta-sahumerio</p>
         </div>
-      
-        <div class="text">
-          <p>
-            Estamos detrás de este mundo verde para acercar la naturaleza y los materiales reciclabes a la vida diaria.
-            Nuestras plantas y manualidades buscan concientizar, dar nueva vida y renovar los espacios de tu hogar.
-          </p>
+      </div>
+      <div class="caja">
+        <img class="souvenirs" src="assets/Img/Artesanias/IMG_20220715_115139.jpg">
+        <div class="hover">
+          <p>Porta vela</p>
         </div>
-      
-    </section>
-  </div>
+      </div>
+      <div class="caja">
+        <img class="souvenirs" src="assets/Img/Artesanias/IMG_20220715_121652.jpg">
+        <div class="hover">
+          <p>Llamador de Angeles</p>
+        </div>
+      </div>
+
+      <div class="caja">
+        <img class="planta" src="assets/Img/Plantas/cactus cebra n6.jpg">
+        <div class="hover">
+          <p>Cactus Cebra</p>
+        </div>
+      </div>
+      <div class="caja">
+        <img class="planta" src="assets/Img/Plantas/cactus chin c8 1.jpg">
+        <div class="hover">
+          <p>Cactus Chin</p>
+        </div>
+      </div>
+      <div class="caja">
+        <img class="planta" src="assets/Img/Plantas/kalanchoe.jpeg">
+        <div class="hover">
+          <p>kalanchoe</p>
+        </div>
+      </div>
+      <div class="caja">
+        <img class="planta" src="assets/Img/Plantas/escila t9.jpg">
+        <div class="hover">
+          <p>Escila</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!---fin de contenedor de imagenes de muestras (propio)-->
+  <!---contenedor de informacion y redes (propio)-->
+  <section id="info">
+
+    <div class="redes">
+
+      <a href="https://www.instagram.com/vivero_mis.raices/" target="_blank" <label>
+        <img class="logoinstagram" src="assets/Img/Logo/instagram.png"></label>
+      </a>
+      <a href="https://www.facebook.com/vivero.misraices.1" target="_blank" <label>
+        <img class="logofacebook" src="assets/Img/Logo/facebook.png"></label>
+      </a>
+    </div>
+
+    <div class="titulo">
+      <h2> Vivero Mis Raices</h2>
+    </div>
+
+    <div class="text">
+      <p>
+        Estamos detrás de este mundo verde para acercar la naturaleza y los materiales reciclabes a la vida diaria.
+        Nuestras plantas y manualidades buscan concientizar, dar nueva vida y renovar los espacios de tu hogar.
+      </p>
+    </div>
+
+  </section>
   <!---fin de contenedor de informacion y redes (propio)-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">

@@ -1,35 +1,22 @@
 @use '../variables/variable' as c;
 
 @media only screen and (min-width:768px) {
-    #contenedor {
+    #cabecera {
         background-color: c.$color-darkgrey;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows:auto;
-        grid-template-areas:
-            "cabecera"
-            "hero"
-            "info"
-        ;
+        
 
     }
-
-    .cabecera {
-        grid-area: cabecera;
-        display: block;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        padding-top: 10px;
-    }
+    
+    
 
     .imagen_principal {
         flex-direction: row;
     }
-.hero {
+#hero {
     background-color: c.$color-darkgrey-claro;
-    grid-area: hero;
+    
     padding-bottom: 10px;
-
+    z-index: 10;
     & .novedades-container {
         display: flex;
         align-items: center;
@@ -103,11 +90,7 @@
     }
     
 
-    .info{
-        grid-area: info;
-        
-        
-    }    
+
     .video {
         height: 250px;
         width: 450px;
@@ -119,34 +102,22 @@
 
 
 @media only screen and (min-width:1280px) {
-    #contenedor {
+    #cabecera {
         background-color: c.$color-darkgrey;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows:200px 2fr 1fr;
-        grid-template-areas:
-            "cabecera"
-            "hero"
-            "info"
-        ;
-
+        
+        
     }
 
-    .cabecera {
-        grid-area: cabecera;
-        display: block;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        padding-top: 10px;
-    }
+    
 
+    
     .imagen_principal {
         flex-direction: row;
     }
 
-    .hero {
+    #hero {
         background-color: c.$color-darkgrey-claro;
-        grid-area: hero;
+        
         padding-bottom: 10px;
 
         & .novedades-container {
@@ -192,9 +163,6 @@
         @include imagenes;
     }
     
-    .info{
-        grid-area: info;
         
-    }       
 
 }
