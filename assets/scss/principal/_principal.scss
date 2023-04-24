@@ -1,8 +1,7 @@
 @use '../variables/variable' as c;
 
-#contenedor{
-    background-color: c.$color-darkgrey-claro ;
-}
+
+
 .nav-link {
     text-align: end;
 }
@@ -25,21 +24,8 @@
     
 }
 .novedades-container{
-    width: c.$ancho;
+    width: 300px;
     margin: 0;
-
-
-    &.caja{
-        display: block;
-        padding-left: 10%;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        border: ridge 1px c.$color-black;
-        border-radius: 5%;
-        margin: 0;
-        padding: 0;
-    }
-    
 } 
 
 

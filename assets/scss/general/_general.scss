@@ -8,7 +8,7 @@
 
 
 #cabecera {
-    background-color: c.$color-darkgrey;
+    background-color: papayawhip;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows:80px 2fr;
@@ -29,19 +29,14 @@
 
 
 #hero {
-    background-color: c.$color-darkgrey-claro ;
-    
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
-.carousel{
-    grid-area: carousel;
-}
-.carousel-inner{
-    padding-bottom: 50px;
-} 
+
+
 .novedades-container{
     grid-area: novedades;
     padding-top: 30px;
@@ -54,8 +49,14 @@
     flex-direction: column;
     align-items: center;
 }
+.card{
+    width: 350px;
 
+}
 
+.carousel-inner{
+    padding-top: 10px;
+}
 
 #info {
 
@@ -65,57 +66,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: c.$color-darkgrey;
     
 }
-.redes{
-& .logoinstagram {
-    width: 40px;
-    padding-bottom: 20px;
-}
-
-& .logofacebook {
-    width: 80px;
-}
-}
 
 
-.titulo {
-    
-    text-align: center;
-    background-color: c.$color-white-pink ;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-.text {
-    
-    width: 300px;
-    align-items: center;
-    background-color:c.$color-white-red ;
-    & p {
 
-        text-align: start;
-        padding: 10px 10px 0 10px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-}
-@mixin imagenes($color) {
-    margin: 2px;
-    width: 170px;
-    height: 230px;
-    margin: 2px;
-    border: ridge 1px $color;
-    border-radius: 10%;
+@mixin imagenes {
+    width: 286px;
+    height: 381px;
+    border-radius: 2.5%;
+
 }
 .planta{
-    @include imagenes(c.$color-aqua);
+    @include imagenes;
 }
 .souvenirs{
-    @include imagenes(c.$color-pink );
+    @include imagenes;
 }
 

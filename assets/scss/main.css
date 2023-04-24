@@ -4,7 +4,7 @@
 }
 
 #cabecera {
-  background-color: #a9a9a9;
+  background-color: papayawhip;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 80px 2fr;
@@ -20,19 +20,11 @@
 }
 
 #hero {
-  background-color: #aaa5a5;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.carousel {
-  grid-area: carousel;
-}
-
-.carousel-inner {
-  padding-bottom: 50px;
+  gap: 10px;
 }
 
 .novedades-container {
@@ -47,6 +39,14 @@
   align-items: center;
 }
 
+.card {
+  width: 350px;
+}
+
+.carousel-inner {
+  padding-top: 10px;
+}
+
 #info {
   padding-top: 10px;
   padding-bottom: 50px;
@@ -54,60 +54,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #a9a9a9;
-}
-
-.redes .logoinstagram {
-  width: 40px;
-  padding-bottom: 20px;
-}
-.redes .logofacebook {
-  width: 80px;
-}
-
-.titulo {
-  text-align: center;
-  background-color: #f8dddd;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-
-.text {
-  width: 300px;
-  align-items: center;
-  background-color: #c0afaf;
-}
-.text p {
-  text-align: start;
-  padding: 10px 10px 0 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .planta {
-  margin: 2px;
-  width: 170px;
-  height: 230px;
-  margin: 2px;
-  border: ridge 1px #00ffff;
-  border-radius: 10%;
+  width: 286px;
+  height: 381px;
+  border-radius: 2.5%;
 }
 
 .souvenirs {
-  margin: 2px;
-  width: 170px;
-  height: 230px;
-  margin: 2px;
-  border: ridge 1px #d87093;
-  border-radius: 10%;
-}
-
-#contenedor {
-  background-color: #aaa5a5;
+  width: 286px;
+  height: 381px;
+  border-radius: 2.5%;
 }
 
 .nav-link {
@@ -130,16 +88,6 @@
   width: 300px;
   margin: 0;
 }
-.novedades-container.caja {
-  display: block;
-  padding-left: 10%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  border: ridge 1px #000000;
-  border-radius: 5%;
-  margin: 0;
-  padding: 0;
-}
 
 @media only screen and (min-width: 768px) {
   .imagen_principal {
@@ -158,30 +106,6 @@
     height: 100%;
     justify-content: center;
   }
-  #hero .novedades-container .caja {
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-  }
-  #hero .novedades-container .caja .hover {
-    width: 0%;
-    background-color: rgba(56, 53, 53, 0.5843137255);
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-  #hero .novedades-container .caja .hover p {
-    color: #ffffff;
-    text-shadow: 1px 1px 1px #000000;
-    font-size: 2rem;
-  }
-  #hero .novedades-container .caja:hover .hover {
-    width: 100%;
-    height: 100%;
-  }
   #hero .notificacion-container {
     display: flex;
     align-items: center;
@@ -191,22 +115,16 @@
     gap: 10px;
     width: 100%;
   }
-  .titulo-container {
-    display: flex;
-    padding: 0;
-  }
-  .text {
-    width: 600px;
+  .card {
+    width: 750px;
   }
   .planta {
-    width: 200px;
-    height: 250px;
-    border-radius: 5%;
+    width: 400px;
+    height: 600px;
   }
   .souvenirs {
-    width: 200px;
-    height: 250px;
-    border-radius: 5%;
+    width: 400px;
+    height: 600px;
   }
   .video {
     height: 250px;
@@ -239,21 +157,6 @@
   #hero .notificacion-container .video {
     height: 250px;
     width: 450px;
-  }
-  .titulo-container {
-    display: flex;
-    padding-bottom: 10px;
-  }
-  .text {
-    width: 900px;
-  }
-  .planta {
-    width: 300px;
-    height: 350px;
-  }
-  .souvenirs {
-    width: 300px;
-    height: 350px;
   }
 }
 .novedades-container {
@@ -300,11 +203,11 @@
   line-height: 40px;
 }
 .form-register a {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.862745098);
   text-decoration: none;
 }
 .form-register a:hover {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.862745098);
   text-decoration: underline;
 }
 .form-register .botons {
@@ -312,7 +215,7 @@
   background: #1f53c5;
   border: none;
   padding: 12px;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.862745098);
   margin: 16px 0;
   font-size: 16px;
 }
