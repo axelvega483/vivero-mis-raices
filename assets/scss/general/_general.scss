@@ -8,7 +8,6 @@
 
 
 #cabecera {
-    background-color: papayawhip;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows:80px 2fr;
@@ -34,6 +33,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    
 }
 
 
@@ -49,10 +49,7 @@
     flex-direction: column;
     align-items: center;
 }
-.card{
-    width: 350px;
 
-}
 
 .carousel-inner{
     padding-top: 10px;
@@ -74,7 +71,6 @@
 @mixin imagenes {
     width: 286px;
     height: 381px;
-    border-radius: 2.5%;
 
 }
 .planta{

@@ -4,7 +4,6 @@
 }
 
 #cabecera {
-  background-color: papayawhip;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 80px 2fr;
@@ -39,10 +38,6 @@
   align-items: center;
 }
 
-.card {
-  width: 350px;
-}
-
 .carousel-inner {
   padding-top: 10px;
 }
@@ -59,13 +54,11 @@
 .planta {
   width: 286px;
   height: 381px;
-  border-radius: 2.5%;
 }
 
 .souvenirs {
   width: 286px;
   height: 381px;
-  border-radius: 2.5%;
 }
 
 .nav-link {
@@ -115,9 +108,6 @@
     gap: 10px;
     width: 100%;
   }
-  .card {
-    width: 750px;
-  }
   .planta {
     width: 400px;
     height: 600px;
@@ -162,15 +152,6 @@
 .novedades-container {
   width: 300px;
   margin: 0;
-}
-.novedades-container .caja {
-  display: block;
-  padding-left: 10%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  border-radius: 5%;
-  margin: 0;
-  padding: 0;
 }
 
 .redes {
