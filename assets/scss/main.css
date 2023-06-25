@@ -6,8 +6,7 @@
 #cabecera {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 80px 2fr;
-  grid-template-areas: "logo" "none" "navbar";
+  grid-template-areas: "logo" "navbar";
 }
 
 .logo {
@@ -49,6 +48,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.carru-foto {
+  height: 200px;
+  width: 350px;
 }
 
 .planta {
@@ -120,6 +124,10 @@
     height: 250px;
     width: 450px;
   }
+  .carru-foto {
+    height: 450px;
+    width: 600px;
+  }
 }
 @media only screen and (min-width: 1280px) {
   .imagen_principal {
@@ -147,6 +155,10 @@
   #hero .notificacion-container .video {
     height: 250px;
     width: 450px;
+  }
+  .carru-foto {
+    height: 640px;
+    width: 1200px;
   }
 }
 .novedades-container {

@@ -10,9 +10,8 @@
 #cabecera {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows:80px 2fr;
     grid-template-areas:
-    "logo" "none""navbar"
+    "logo" "navbar"
         
         
     ;
@@ -65,8 +64,10 @@
     align-items: center;
     
 }
-
-
+.carru-foto{
+    height: 200px;
+    width: 350px;
+}
 
 @mixin imagenes {
     width: 286px;
