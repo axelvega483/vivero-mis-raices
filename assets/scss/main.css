@@ -6,7 +6,7 @@
 #cabecera {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-areas: "logo" "navbar";
+  grid-template-areas: "logo" "none" "navbar";
 }
 
 .logo {
